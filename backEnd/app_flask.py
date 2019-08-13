@@ -9,8 +9,6 @@ from flask_cors import *
 
 import argparse
 import sys
-import cv2
-from annoy import AnnoyIndex
 from datetime import datetime
 import datetime
 import random
