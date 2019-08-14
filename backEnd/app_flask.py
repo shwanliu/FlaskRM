@@ -27,10 +27,10 @@ headers = {
     'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token'
 }
 app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'root'
+app.config['MYSQL_DATABASE_PASSWORD'] = '******'
 app.config['MYSQL_DATABASE_DB'] = 'member'
 app.config['MYSQL_DATABASE_HOST'] = '127.0.0.1'
-app.config['MYSQL_DATABASE_PORT'] = 32768
+app.config['MYSQL_DATABASE_PORT'] = 3306
 mysql.init_app(app)
 
 connect = mysql.connect()
