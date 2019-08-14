@@ -41,7 +41,7 @@ class AddData extends Component {
 
   searchDate(){
     console.log(this.account)
-    axios.post(`http://192.168.1.131:5000/searchDate`,
+    axios.post(`${ServiceUrl}/searchDate`,
     { account:this.account},
       {
       headers: {
