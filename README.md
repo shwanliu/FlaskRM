@@ -53,6 +53,6 @@
     2. 执行python3 app_flask.py，启动你的后端
     3. 推出虚拟环境：deactivate就可以推出当前的虚拟环境了
 
-* 或者执行 uwsgi --http :5000 --wsgi-file app_flask.py --callable app，这边x.x.x.x是你的服务器内网ip哦,使用uwsgi。待补充
+* 或者执行 nohup uwsgi --http :5000 --wsgi-file app_flask.py --callable app，这边x.x.x.x是你的服务器内网ip哦,使用uwsgi。待补充
 
 ### 注意：前端需要访问的地址配置在 config.js里面！！！
