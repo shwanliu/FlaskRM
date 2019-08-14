@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, request
 import os,shutil
-import numpy as np 
 import json 
 import collections
 import time
