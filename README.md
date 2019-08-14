@@ -11,7 +11,7 @@
 
 
 
-### 2. 前端使用的ReactJS，轻松开发，和后端分离,官网 [https://reactjs.org/] 使用的前端框架是CoreUI:[https://github.com/shwanliu/coreui-free-react-admin-template]，可以参考这个进行开发，要知道我们要站在巨人的肩膀上才能进步
+### 2. 前端使用的ReactJS，轻松开发，和后端分离,官网 [https://reactjs.org/] 使用的前端框架是CoreUI:[https://github.com/shwanliu/coreui-free-react-admin-template]可以参考这个进行开发，要知道我们要站在巨人的肩膀上才能进步
 * 环境安装：部署的时候需要安装npm、nodejs才能支持使用，参考 https://www.cnblogs.com/dj3839/p/6617584.html
 
 * 在frontEnd目录下执行npm start，就可以启动前端界面了,本地开发调试建议这样使用
